@@ -1,0 +1,101 @@
+.wrapper{
+    background-color: #F5F5F5;
+    padding: 29px 15px;
+}
+.job__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08), 0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 24px 16px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.job__container__wrapper{
+    display: flex;
+    align-items: center;
+}
+.job__container-left-img{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin-right: 26px;
+}
+.job__container-center-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+    max-width: 750px;
+    text-decoration: none;
+}
+.job__container-center-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #878D9D;
+    display: inline;
+    position: relative;
+    margin-left: 20px;
+}
+.job__container-center-text::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: #3A4562;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(-50%, -50%);
+}
+.job__container-center-location{
+    display: flex;
+    align-items: center;
+}
+.job__container-center-location-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #878D9D;
+    margin-left: 8px;
+}
+.job__container-right-posted{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #878D9D;
+    margin-top: 50%;
+}
+.icon{
+    color:  #70778B;
+}
+.job__container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width: 425px) {
+    .job__container{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .job__container-right svg{
+        display: none;
+    }
+    .job__container-center-title{
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 400px;
+    }
+    .job__container-center-text{
+        font-size: 14px;
+        display: block;
+    }
+    .job__container-right-posted {
+        margin-top: 0;
+    }
+    
+}

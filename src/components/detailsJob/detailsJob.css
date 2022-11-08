@@ -1,0 +1,202 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.details__main{
+    padding: 56px 100px;
+    max-width: 730px;
+}
+.details__main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details__main-header::after{
+    content: '';
+    position: absolute;
+    width: 730px;
+    height: 1px;
+    background-color: #384564;
+    top: 140px;
+    opacity: 0.13;
+}
+.details__main-header-right{
+    display: flex;
+    align-items: center;
+}
+.details__main-header-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #3A4562;
+}
+.details__main-header-right-text:first-of-type{
+    margin-right: 30px;
+}
+.details__main-header-right-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A4562;
+}
+.details__main-wrapper-button{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #384564;
+    border-radius: 8px;
+    padding: 18px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.details__main-wrapper-block{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.details__main-wrapper-block-title{
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3A4562;
+}
+.details__main-wrapper-block-price-value{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3A4562;
+    margin-bottom: 10px;
+}
+.details__main-wrapper-block-price-per{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A4562;
+    margin-top: 10px;
+}
+.details__main-wrapper-posted{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(56, 65, 93, 0.355988);
+    margin-top: 0;
+}
+.details__main-wrapper-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A4562;
+    position: relative;
+
+}
+.details__main-wrapper-pretitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3A4562;
+}
+.circle::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background: #384564;
+    top: 30%;
+    left: -20px;
+    border-radius: 50%;
+}
+.details__main-additional{
+    margin-top: 100px;
+}
+.details__main-additional-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #3A4562;
+    position: relative;
+}
+.details__main-additional-title::after{
+    content: '';
+    position: absolute;
+    width: 730px;
+    height: 1px;
+    background-color: #384564;
+    top: 45px;
+    left: 0;
+    opacity: 0.13;
+}
+.details__main-additional-pretitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A4562;
+    margin: 10px;
+}
+.details__main-additional-employment{
+    display: flex;
+    align-items: center;
+}
+.details__main-additional-employment-p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    background: rgba(161, 177, 219, 0.317343);
+    color: #55699E;
+    border: 1px solid rgba(85, 105, 158, 0.3);
+    border-radius: 8px;
+    padding: 17px 60px;
+}
+.yellow{
+    color: #988B49;
+    background: rgba(255, 207, 0, 0.15);
+    border: 1px solid #FFCF00;
+}
+.details__main-additional-employment-p:first-of-type{
+    margin-right: 20px;
+}
+.details__main-additional-img{
+    width: 200px;
+    height: 116px;
+    border-radius: 10px;
+}
+.details__main-additional-img:not(:last-of-type){
+    margin-right: 20px;
+}
+.button-back{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #384564;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}
+.details__location{
+    max-height: 230px;
+    padding: 20px 30px;
+    background: #2A3047;
+    color: #E7EAF0;
+}
+.details__location-name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px; 
+}
+.details__location-loc, .details__location-phone, .details__location-email{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}

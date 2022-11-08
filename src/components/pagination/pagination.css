@@ -1,0 +1,14 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.page-link{
+    padding: 2px 14px;
+    border-radius: 100%;
+    text-decoration: none;
+    border: 3px solid #5876C5;
+}
+.page-link:first-child{
+    margin-left: 20px;
+}
